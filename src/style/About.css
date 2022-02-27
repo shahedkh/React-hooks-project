@@ -1,0 +1,107 @@
+
+.about{
+    margin: 3% 40% 0 40%;
+    font-size: 50px;
+    
+}
+.About-cont{
+    display:flex;
+
+}
+.backpack_girl,.boyWithBlueBackground{
+    margin:50px;
+    width:20%;
+}
+.About-text span ,.about span , .About-Approach  span{
+    color: var(--teal);
+}
+.About-text{
+    width: 70%;
+    margin-top: 8%;
+
+}
+.About-cont-left{
+    display:flex;
+    flex-direction:row-reverse;
+    background-color: var(--teal);
+
+}
+.About-In-Card{
+    border: 1px solid var(--black);
+    padding: 5%;
+    margin: 5%;
+
+}
+.About-In-Card:hover{
+    background-color:var(--teal);
+    color:var(--white);
+}
+
+.About-Approach{
+    margin: auto 35%;
+    padding: 20px;
+    text-align: center; 
+}
+.About-container{
+    display: flex;
+    align-items: center;
+    padding: 50px 50px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.About-Card{ 
+    padding: 15px;}
+    
+@media only screen and (max-width: 768px) {
+    .about{
+        font-size:30px ;
+    }    
+    .About-text-right{ margin-right: 1500px;}
+    .About-text  { font-size: 12px;}
+    .About-Approach {font-size: 12px;}
+    #About-text-left{
+        margin-left:  30px;
+    }
+    #About-text-right{
+        margin-right: 30px;
+    }
+    .About-container{padding: 0px 0px;}
+    
+}
+
+@media only screen and (max-width: 615px) {
+    .about{
+        font-size:20px ;
+       
+    }
+    .About-cont,.About-cont-left{
+        align-items: center;
+        flex-direction:column;
+        padding:10px auto;
+    }
+    .backpack_girl,.boyWithBlueBackground{
+        width: 50%;
+        margin: auto;
+    }
+   .about{font-weight: bold;}
+    .About-Approach h1{font-size: 16px; 
+    font-weight: bold;}
+    .About-text h1{font-size: 25px; }
+    .About-Approach {font-size: 12px;  }
+}
+
+@media only screen and (max-width:425px){ 
+    .about{
+        font-size:15px ;    
+    }
+    .backpack_girl ,.About-text{
+        margin: 15px ;
+    }
+
+    .About-container{margin-top: auto;}
+    .About-text h1 { font-size: 15px;}
+    .About-Approach h1{font-size: 20px; margin-top: 10px; }
+    .About-Approach{padding:0px;}
+    
+}
